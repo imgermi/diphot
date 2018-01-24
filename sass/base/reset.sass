@@ -1,0 +1,66 @@
+// main: ../main.sass
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	text-decoration: none
+
+.container
+	padding: 0 15px
+	margin: auto
+	@media(min-width: 1200px)
+		width: 1000px
+
+.banda
+	padding: 50px 0
+
+body
+	background: #fff
+
+.p-container
+	@media(min-width: 768px)
+		width: 660px
+		margin: auto
+	@media(min-width: 992px)
+		width: 700px
+
+.top-box
+	box-shadow: inset 0 0 0 1000px transparentize($footer-blue, 0.2)
+	background-size: cover
+	background-position: center center
+	padding: 200px 0 100px
+	color: #eee
+	position: relative
+	overflow: hidden
+	@media(min-width: 1200px)
+		padding: 175px 0 100px
+	.diphot-arrows
+		display: block
+		width: 330px
+		position: absolute
+		bottom: 0
+		right: -100px
+		pointer-events: none
+		z-index: 2
+		@media(min-width: 992px)
+			right: 0
+			top: 50%
+			transform: translateY(-50%)
+			width: 45%
+.filled-btn
+	text-transform: uppercase
+	display: inline-block
+	border-radius: 4px
+	color: $white
+	background: #ccc
+	padding: 8px 18px
+	text-align: center
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+	transition: all 100ms ease-in
+	&:hover
+		transform: translateY(-1px)
+		box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+		opacity: 0.9
+	&:active
+		transform: translateY(1px)
