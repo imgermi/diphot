@@ -5,48 +5,96 @@
       <div class="container">
         <h1>Soluciones</h1>
         <h2>Toda solución informática conjuga innovación, creatividad y una estrategia efectiva.</h2>
-        <div class="secondary-nav-container">
+<!--         <div class="secondary-nav-container">
           <div class='secondary-nav'>
             <ul>
-              <li><a href="#emision-de-documentos">Emisión de documentos</a></li>
-              <li><a href="#firma-digital">Firma digital</a></li>
+              <li><a href="#sistema-de-fidelizacion">Sistema de Fidelización</a></li>
+              <li><a href="#emision-de-documentos">Emisión de Documentos</a></li>
+              <li><a href="#sistema-de-turnos-online">Sistema de Turnos Online</a></li>
+              <li><a href="#turnero-totem">Turnero-Totem</a></li>
+              <li><a href="#data-analytics-machine-learning">Data Analytics & Meaching Learning</a></li>
               <li><a href="#rfid">RFID</a></li>
-              <li><a href="#otp-card">OTP Card</a></li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
       <img class="diphot-arrows" src="~/assets/images/icons/diphot-arrows.svg">
     </section>
 
     <section class="banda">
       
-      <article class="solucion" id="emision-de-documentos">
+      <article class="solucion" id="sistema-de-fidelizacion">
         <div class="container">
           <div class="solucion__img">
             <span>01</span>
-            <div></div>
+            <div>
+              <img src="~/assets/images/soluciones/sistema-fidelizacion.jpg" alt="Sistema de Fidelización">
+            </div>
           </div>
           <div class="solucion__text">
-            <h5>Emisión de documentos</h5>
-            <p>Diphot ha sido pionera de la fotografía digital impresa directamente sobre papel: desde hace más de tres lustros (5 años) y con alrededor de 800. 000 documentos emitidos. Nuestros aplicativos propietarios responden a las mayores exigencias de la programación.</p>
-            <p>Prestamos servicios a gobiernos en forma integral: relevando el procedimiento, proponiendo la solución, capacitando, licenciando el software específico, suministrando el hardware y los insumos, incluyendo los de seguridad documental.</p>
-            <p>Realizamos - la actualización - los “update” y/o “upgrade” de los aplicativos y la reposición y actualización - y mantenimiento - del hardware. Administramos las Bases de Datos con la seguridad que requiere cada proyecto. Brindamos los informes periódicos que nos solicitan los clientes para la gestión gubernamental.</p>
-            <p>Como servicio nos enorgullecemos de no haber suspendido nunca nuestras prestaciones en los 16 años de trayectoria.</p>
+            <h5>Sistema de Fidelización</h5>
+            <p>Desarrollamos un sistema a medida para tu Negocio, con las últimas tecnologías informáticas.  El sistema se complementa con una tarjeta (física o virtual) que permite premiar a tus Clientes por las compras realizadas.  Por cada venta, los clientes suman puntos y pueden consultar qué tipo de promociones y/o descuentos pueden obtener.</p>
           </div>
         </div>
       </article>
 
-      <article class="solucion" id="firma-digital">
+      <article class="solucion" id="emision-de-documentos">
         <div class="container">
           <div class="solucion__img">
             <span>02</span>
-            <div></div>
+            <div>
+              <img src="~/assets/images/soluciones/emision-documentos.jpg" alt="Emisión de Documentos">
+            </div>
           </div>
           <div class="solucion__text">
-            <h5>Firma digital</h5>
-            <p>La Ley Argentina homologa la firma ológrafa (la que usamos diariamente con un bolígrafo) con la Firma Digital. Esta es un identificador informático unívoco que forma parte de la llamada infraestructura de Clave Pública (PKI). Consiste en la generación, bajo requisitos de máxima seguridad, de dos claves “hermanadas”: una pública y otra privada. Estas claves, de cientos a miles de cifras (según la seguridad requerida) permiten cifrar los mensajes. Cuando se cifra un mensaje con la clave privada, se dice que se usa la “firma digital”. Este texto sólo puede descifrarlo quien recibió previamente la “hermana” clave pública, quedando unívocamente definido quién lo envió y no podrá repudiarlo.</p>
-            <p>Se utiliza como máximo nivel de seguridad en transacciones informáticas y requiere de aplicativos complementarios desarrollados por nuestros equipos: Políticas de Seguridad, Autoridad de Certificación (CA), Autoridades de Registración (RA) y Time Stamping (TS). Este último acompaña al Certificado de Firma Digital brindándole la fecha y hora en la que se ejecutó la acción. El sistema de Firma Digital / Electrónica, permite trámites virtuales con la mayor seguridad (firmar a distancia escrituras, acuerdos, poderes), consulta a Bases de Datos sensibles, etc.</p>
+            <h5>Emisión de Documentos</h5>
+            <p>Brindamos un <strong>Sistema Integral Informático</strong> que permite identificar de manera rápida y segura a las personas, almacenando toda su información, personal y biométrica, en una BBDD.  El análisis de estos datos permite obtener información útil y conocimiento para la gestión y toma de decisiones. Desde 1994 proveemos este servicio a Municipios del Gran Buenos Aires.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="solucion" id="sistema-de-turnos-online">
+        <div class="container">
+          <div class="solucion__img">
+            <span>03</span>
+            <div>
+              <img src="~/assets/images/soluciones/turnos.jpg" alt="Sistema de Turnos Online">
+            </div>
+          </div>
+          <div class="solucion__text">
+            <h5>Sistema de Turnos Online</h5>
+            <p>Un servicio adaptable a diferentes tipos de áreas para optimizar tiempos y mejorar procesos en la atención de los clientes. Cada cliente puede elegir un turno “on line”, según su conveniencia y disponibilidad y confirmarlo en  forma inmediata. Se genera una BBDD con e-mails validados. Es un sistema adaptable a cualquier actividad: profesionales, Organismos, Bancos, Centros de Salud, etc.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="solucion" id="turnero-totem">
+        <div class="container">
+          <div class="solucion__img">
+            <span>04</span>
+            <div>
+              <img src="~/assets/images/soluciones/totem.jpg" alt="Turnero-Totem">
+            </div>
+          </div>
+          <div class="solucion__text">
+            <h5>Turnero-Totem</h5>
+            <p>Es un Sistema de Autoconsulta para ordenar el flujo de atención a clientes, optimizando los tiempos de espera. Permite tener información muy útil para la gestión interna de una Organización o Entidad gubernamental.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="solucion" id="data-analytics-machine-learning">
+        <div class="container">
+          <div class="solucion__img">
+            <span>05</span>
+            <div>
+              <img src="~/assets/images/soluciones/machine-data.jpg" alt="Data Analytics & Machine Learning">
+            </div>
+          </div>
+          <div class="solucion__text">
+            <h5>Data Analytics & Machine Learning</h5>
+            <p>Desde el 2014 nos enfocamos en desarrollar una plataforma de Biga Data y Data Analytics , usando BBDD no relacionales, libre de licencias.</p>
+            <p>De la misma forma hemos desarrollado Micro Servicios e incursionado en Machine Learning y BlockChain con desarrollos que se nutren con los productos que son nuestra experiencia de casi 25 años.</p>
           </div>
         </div>
       </article>
@@ -54,26 +102,14 @@
       <article class="solucion" id="rfid">
         <div class="container">
           <div class="solucion__img">
-            <span>03</span>
-            <div></div>
+            <span>06</span>
+            <div>
+              <img src="~/assets/images/soluciones/rfid.jpg" alt="RFID">
+            </div>
           </div>
           <div class="solucion__text">
-            <h5>Identificación por Radiofrecuencia (RFID)</h5>
-            <p>La tecnología RFID ayuda a la identificación unívoca y automática sin contacto, permitiendo en una multiplicidad de aplicaciones, la acreditación e individualización de personas (e-Passport, e-IDs), la localización y/o el monitoreo de mercaderías y objetos (tracking), de documentación e insumos (asset brand) y de objetos y animales. El chip del tamaño menor a una cabeza de alfiler, contiene varios miles de transistores y puede incluirse junto a su antena en una tarjeta como las de crédito, en un “librito” como el Pasaporte, en una etiqueta autoadhesiva o en diversos materiales incluso, dentro de un objeto. Es un identificador unívoco (no genérico) que puede recibir y grabar datos o eventos según transcurre el tiempo y el espacio, en reposo o en movimiento, manteniendo en forma automática la actualización de los sistemas y sus bases de datos. La representación que ejercemos, acredita proyectos internacionales ya ejecutados con éxito, de gran magnitud y trascendencia.</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="solucion" id="otp-card">
-        <div class="container">
-          <div class="solucion__img">
-            <span>04</span>
-            <div></div>
-          </div>
-          <div class="solucion__text">
-            <h5>Tarjeta OTP Card</h5>
-            <p>Es una tarjeta tipo crédito/débito, con un display que genera, al hacer presión, un password de seis dígitos que dura escasos segundos y debe verificarse en el servidor en ese lapso. Esta tarjeta OTP (One Time Password) brinda el mayor nivel de seguridad en la autenticación del acceso “on line” seguro a cuentas bancarias y/o redes de datos sensibles. Reemplaza con ventajas al “token” usado en los últimos años, pues como tarjeta, admite impresiones de diseños, iso-logos propietarios, sofisticados gráficos, etc., abriendo un amplio campo de nuevas prestaciones a instituciones financieras, empresas y/o gobiernos.</p>
-            <p>La representación que ejercemos, produce y personaliza las OTP Cards bajo estricto cumplimiento de regulaciones gubernamentales y de EuroPay®, MasterCard® y Visa®.</p>
+            <h5>RFID</h5>
+            <p>Esta tecnología ayuda a la identificación unívoca y automática sin contacto, permitiendo en una multiplicidad de aplicaciones, la acreditación e individualización, localización y/o el monitoreo de personas, mercaderías, y objetos, y/o animales.</p>
           </div>
         </div>
       </article>

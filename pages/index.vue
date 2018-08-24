@@ -1,9 +1,8 @@
 <template>
   <div class="index">
-
     <section class="top-box">
       <div class="container">
-        <h1>Somos DiPhot</h1>
+        <h1><span>Somos</span> <span class="word" id="word"></span></h1>
         <h2>Brindamos soluciones informáticas integrales</h2>
       </div>
     </section>
@@ -11,23 +10,24 @@
     <section class="servicios-container">
       <div class="container">
         <div class="servicios-container-flex">
-          <nuxt-link to="/" class="servicio">
-            <h3>Emisión de documentos</h3>
-            <h4>Nuestros principales proyectos de seguridad documental se apoyan e la generación de licencias de conducir, libretas sanitarias y otras identificaciones.</h4>
+          <nuxt-link to="/soluciones#sistema-de-fidelizacion" class="servicio">
+            <h3>Sistema de Fidelización</h3>
+            <h4>Desarrollamos un sistema a medida para tu Negocio, con las últimas tecnologías informáticas.</h4>
           </nuxt-link>
-          <nuxt-link to="/" class="servicio">
-            <h3>Firma digital</h3>
-            <h4>Mediante el máximo nivel de seguridad en transacciones informáticas, la firma digital permite realizar trámites virtuales a distancia, a través de mensajes cifrados.</h4>
+          <nuxt-link to="/soluciones#emision-de-documentos" class="servicio">
+            <h3>Emisión de Documentos</h3>
+            <h4>Brindamos un Sistema Integral Informático que permite identificar de manera rápida y segura a las personas.</h4>
           </nuxt-link>
-          <nuxt-link to="/" class="servicio">
-            <h3>Identificación por <br> radiofrecuencia</h3>
-            <h4>La tecnología RFID ayuda a la identificación automática sin contacto, permitiendo la acreditación e de personas, objetos, mercaderías y otros tipos de insumos.</h4>
+          <nuxt-link to="/soluciones#sistema-de-turnos-online" class="servicio">
+            <h3>Sistema de Turnos Online</h3>
+            <h4>Un servicio adaptable a diferentes tipos de áreas para optimizar tiempos y mejorar procesos en la atención de los clientes.</h4>
           </nuxt-link>
-          <nuxt-link to="/" class="servicio">
-            <h3>OTP Card</h3>
-            <h4>Una tarjeta personalizada que genera una password de 6 dígitos para ser verificada en un lapso breve. Reemplaza al token, brindando un mayor nivel de seguridad en la autenticación para accesos online.</h4>
+          <nuxt-link to="/soluciones#turnero-totem" class="servicio">
+            <h3>Turnero-Totem</h3>
+            <h4>Sistema de Autoconsulta para ordenar el flujo de atención a clientes, optimizando los tiempos de espera.</h4>
           </nuxt-link>
         </div>
+        <nuxt-link to="/soluciones" class="filled-btn orange">Ver todas las soluciones</nuxt-link>
       </div>
     </section>
 
@@ -72,4 +72,3 @@ export default {
   }
 }
 </script>
-

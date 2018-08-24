@@ -47,6 +47,32 @@ header
 		@media(min-width: 1200px)
 			font-size: 22px
 			line-height: 30px
+	span
+		display: inline-block
+		vertical-align: middle
+	.word
+		background-color: $orange
+		color: #fff
+		height: 1.1em
+		padding: 0 14px 0 7px
+		display: inline-block
+		vertical-align: middle
+		position: relative
+		margin-left: 10px
+		&:before
+			content: ''
+			background-color: black
+			width: 1px
+			position: absolute
+			top: 5px
+			bottom: 5px
+			right: 7px
+			animation: blinkNaim 500ms linear infinite
+	@keyframes blinkNaim
+	  0% 
+	    opacity: 0
+	  50% 
+	    opacity: 1
 .servicios-container
 	.servicio
 		h3

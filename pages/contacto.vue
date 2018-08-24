@@ -4,7 +4,7 @@
     <section class="top-box">
       <div class="container">
         <h1>Contacto</h1>
-        <h2>Envíe su contacto para que podamos brindarle la solución más adecuada para su empresa.</h2>
+        <h2>Envíe su contacto para que podamos brindarle la solución más adecuada a su empresa.</h2>
       </div>
       <img class="diphot-arrows" src="~/assets/images/icons/diphot-arrows.svg">
     </section>

@@ -1,24 +1,36 @@
-// // Hamburger
-// window.onload = function(){ 
-//     var hamburger = document.querySelector('.hamburger');
-//     var nav = document.querySelector('header nav');
-//     // var navLink = document.querySelector('header .container nav ul li a');
+window.onload = function(){
+	// Home text animation
+	var words = ['Diphot', 'soluciones', 'innovación', 'futuro', 'referentes'],
+	    wordWrapper = document.getElementById('word'),
+	    wordWrapperContent = wordWrapper.innerHTML,
+	    addingWord = false,
+	    counter = 1;
 
-//     hamburger.onclick = function() {
-//       hamburger.classList.toggle('is-active');
-//       nav.classList.toggle('is-active');
-//     }
+	setInterval(function(){
 
-//     // navLink.onclick = function() {
-//     // 	// if (nav.classList.contains('is-active')) {
-//     // 	// 	nav.classList.remove('is-active');
-//     // 	// 	console.log('hey');
-//     // 	// }
-//     // 	// if (hamburger.classList.contains('is-active')) {
-//     // 	// 	hamburger.classList.remove('is-active');
-//     // 	// 	console.log('hey2');
-//     // 	// }
-//     //     console.log('hey');
-//     // }
-// };
+	  if(wordWrapperContent.length > 0 && !addingWord ) {
+	    wordWrapper.innerHTML = wordWrapperContent.slice(0, -1);
+	    wordWrapperContent = wordWrapper.innerHTML;
+	  } else {
+	    addingWord = true;
+	  }
+
+	  if( addingWord ){
+	    if( wordWrapperContent.length < words[counter].length  ) {
+	      wordWrapper.innerHTML = words[counter].slice(0, wordWrapperContent.length + 1);
+	      wordWrapperContent = wordWrapper.innerHTML;
+	    } else {
+	      if( counter < words.length) {
+	        counter ++
+	      }
+	      addingWord = false;
+	    }
+	  }
+
+	  if( counter == words.length) {
+	    counter = 0;
+	  }
+
+	}, 150);
+}
 
