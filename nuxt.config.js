@@ -19,9 +19,6 @@ module.exports = {
       { rel: 'manifest', href: '/favicons/manifest.json' },
       { rel: 'mask-icon', href: '/favicons/safari-pinned-tab.svg'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300|Titillium+Web:300,700' }
-    ],
-    script: [
-      { type: 'text/javascript', src: '/main.js' }
     ]
   },
   css: [

@@ -23,7 +23,9 @@
 
     <section class="banda historia">
       <div class="container">
-        <article class="historia__img"></article>
+        <article class="historia__img">
+          <img src="~/assets/images/diphot-empresa.jpg" alt="Diphot - Soluciones Informáticas Integrales">
+        </article>
         <article class="historia__content">
           <h5>Nuestra historia</h5>
           <p>DiPhot S.A. es una empresa familiar y argentina que viene brindando soluciones al sector público y privado hace 25 años. Está focalizada en ofrecer soluciones innovativas y competitivas. Nuestro Staff de desarrollo permanentemente se actualiza en el uso de nuevas tecnologías. Hemos sido pioneros (1994) en la impresión sobre papel de fotografías digitales en documentos públicos como la Licencia de Conducir. Hemos desarrollado aplicativos para consulta y generación de Bases de Datos desde diversos dispositivos  SmartPhones, Tablets, PCs, etc.</p>
