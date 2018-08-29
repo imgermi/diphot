@@ -14,7 +14,7 @@
         <article class="p-container">
           <p>Nuestra "pre-ocupación" por la calidad en los procesos y procedimientos que ofrecemos, nos ha llevado, por propia iniciativa, a requerir la certificación del Sistema de Calidad ISO, recorriendo las distintas instancias que la Norma fue actualizando. Iniciamos con la ISO  9001:1994, luego 9001:2000, después 9001:2008  y finalmente hace un año certificamos bajo la Norma ISO 9001: 2015 para el "Diseño, Desarrollo, Comercialización, Provisión, Instalación y Operación de Sistemas de Identificación de Personas y/u Objetos y Soluciones Integrales de Sistemas".</p>
           <p>Nuestras propias oficinas, en el centro geográfico de la Ciudad de Buenos Aires, es el continente que permite a las personas que trabajamos en Diphot generar con espíritu innovador, aplicativos y soluciones que se nos requieren, aplicando conceptos simples pero rigurosos: seguridad, calidad, identificación, innovación y creatividad.</p>
-          <p>Nuestros profesionales, capacitados en Smarts Contracts, usos de la nube y lenguajes de última generación, pueden brindar las soluciones que se les requieran, con una visión de la arquitectura que puede ir creciendo con nuevas iniciativas en función de las experiencias obtenidas y con una impronta liminar de seguridad, para cuidar la privacidad, factor que cada día cobra mayor importancia.</p>
+          <p>Nuestros profesionales, capacitados en usos de la nube y lenguajes de última generación, pueden brindar las soluciones que se les requieran, con una visión de la arquitectura que puede ir creciendo con nuevas iniciativas en función de las experiencias obtenidas y con una impronta liminar de seguridad, para cuidar la privacidad, factor que cada día cobra mayor importancia.</p>
           <p>En Diphot acompañamos a nuestros clientes a lo largo de la implementación y aplicación de nuestras herramientas tecnológicas. Capacitamos a las personas que utilizan nuestros servicios y/o productos.</p>
           <p>Integral significa comprometernos a lo largo de todo un proceso.</p>
         </article>
@@ -47,7 +47,7 @@ import Contacto from '~/components/Contacto.vue'
 export default {
   data () {
     return {
-      title: 'Empresa'
+      title: 'La Empresa'
     }
   },
   head () {
@@ -58,7 +58,7 @@ export default {
         { hid: 'keywords', name: 'keywords', content: 'informática, soluciones, documentos, digital, tecnología, electrónica, licencias, identificaciones, acreditación, tracking, tarjeta, card, top card, rfid, radiofrecuencia, soluciones integrales para empresas, firma digital, empresas, software, hardware, bases de datos, seguridad documental, encriptado, cifrado, transacciones informáticas, certificación, visa, Euro pay, MasterCard' }
       ],
       link: [
-        { rel: 'canonical', href: 'http://diphot.com/empresa/' }
+        { rel: 'canonical', href: 'https://diphot.com/empresa' }
       ]
     }
   },

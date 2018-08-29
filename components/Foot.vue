@@ -5,6 +5,7 @@
 	    <div class="copyright">
 	    	<span>{{ new Date().getFullYear() }} - Diphot SA</span>
 	    	<span>Av. Honorio Pueyrredón 365 - Ciudad de Buenos Aires - Argentina</span>
+				<span>[+54 11] 4904 4094</span>
 	    	<a href="https://weland.com.ar" target="_blank">Website by <b>Weland</b></a>
 	    </div>
     </div>

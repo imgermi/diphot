@@ -66,7 +66,7 @@ export default {
         { hid: 'keywords', name: 'keywords', content: 'informática, soluciones, documentos, digital, tecnología, electrónica, licencias, identificaciones, acreditación, tracking, tarjeta, card, top card, rfid, radiofrecuencia, soluciones integrales para empresas, firma digital, empresas, software, hardware, bases de datos, seguridad documental, encriptado, cifrado, transacciones informáticas, certificación, visa, Euro pay, MasterCard' }
       ],
       link: [
-        { rel: 'canonical', href: 'http://diphot.com/contacto/' }
+        { rel: 'canonical', href: 'https://diphot.com/contacto' }
       ]
     }
   }

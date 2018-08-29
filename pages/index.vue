@@ -16,7 +16,7 @@
           </nuxt-link>
           <nuxt-link to="/soluciones#emision-de-documentos" class="servicio">
             <h3>Emisión de Documentos</h3>
-            <h4>Brindamos un Sistema Integral Informático que permite identificar de manera rápida y segura a las personas, almacenando toda su información, personal y biométrica, en una BBDD.  El análisis de estos datos permite obtener información útil y conocimiento para la gestión y toma de decisiones. Desde 1994 proveemos este servicio a Municipios del Gran Buenos Aires.</h4>
+            <h4>Brindamos un Sistema Integral Informático que permite identificar de manera rápida y segura a las personas, almacenando toda su información, personal y biométrica, en una BBDD.  El análisis de estos datos permite obtener información útil y conocimiento para la gestión y toma de decisiones. Desde 1994 proveemos este servicio a organismos públicos.</h4>
           </nuxt-link>
           <nuxt-link to="/soluciones#sistema-de-turnos-online" class="servicio">
             <h3>Sistema de Turnos Online</h3>
@@ -58,7 +58,7 @@ import Contacto from '~/components/Contacto.vue'
 
 export default {
   mounted () {
-    var words = ['futuro', 'Diphot', 'soluciones', 'innovación', 'referentes']
+    var words = ['el futuro', 'Diphot', 'la solución', 'la innovación', 'los referentes', 'los especialistas']
     var wordWrapper = document.getElementById('word')
     var wordWrapperContent = wordWrapper.innerHTML
     var addingWord = false
@@ -99,7 +99,7 @@ export default {
         { hid: 'keywords', name: 'keywords', content: 'informática, soluciones, documentos, digital, tecnología, electrónica, licencias, identificaciones, acreditación, tracking, tarjeta, card, top card, rfid, radiofrecuencia, soluciones integrales para empresas, firma digital, empresas, software, hardware, bases de datos, seguridad documental, encriptado, cifrado, transacciones informáticas, certificación, visa, Euro pay, MasterCard' }
       ],
       link: [
-        { rel: 'canonical', href: 'http://diphot.com/' }
+        { rel: 'canonical', href: 'https://diphot.com/' }
       ]
     }
   },

@@ -38,6 +38,9 @@ header
 		@media(min-width: 1200px)
 			font-size: 45px
 			line-height: 50px
+		@media(max-width: 480px)
+			span:first-child
+				display: block
 	h2
 		font-weight: 300
 		font-size: 20px
@@ -51,23 +54,27 @@ header
 		display: inline-block
 		vertical-align: middle
 	.word
-		background-color: $orange
 		color: #fff
 		height: 1.1em
 		padding: 0 14px 0 7px
 		display: inline-block
 		vertical-align: middle
 		position: relative
-		margin-left: 10px
+		@media(max-width: 480px)
+			padding-left: 0
+			line-height: 20px
+			height: 35.19px
 		&:before
 			content: ''
-			background-color: black
+			background-color: #fff
 			width: 1px
 			position: absolute
 			top: 5px
 			bottom: 5px
 			right: 7px
 			animation: blinkNaim 500ms linear infinite
+			@media(max-width: 480px)
+				top: 0
 	@keyframes blinkNaim
 	  0% 
 	    opacity: 0

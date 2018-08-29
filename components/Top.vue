@@ -1,7 +1,7 @@
 <template>
 	<header>
 		<div class="container">
-			<nuxt-link class="logo" to="/"><img v-on:click="closeMenu()" src="~/assets/images/logo.svg"></nuxt-link>
+			<nuxt-link class="logo" to="/"><img v-on:click="closeMenu()" src="~/assets/images/logo.svg" alt="Diphot | Soluciones Informáticas Integrales"></nuxt-link>
 			<div v-on:click="toggleMenu()" class="hamburger hamburger--spin" tabindex="0" aria-label="Menu" role="button" aria-controls="navigation">
 				<span>Menu</span>
 				<div class="hamburger-box">

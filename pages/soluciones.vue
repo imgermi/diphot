@@ -28,7 +28,7 @@
           <div class="solucion__img">
             <span>01</span>
             <div>
-              <img src="~/assets/images/soluciones/sistema-fidelizacion.jpg" alt="Sistema de Fidelización">
+              <img src="~/assets/images/soluciones/sistema-fidelizacion-update.jpg" alt="Sistema de Fidelización">
             </div>
           </div>
           <div class="solucion__text">
@@ -88,7 +88,7 @@
           <div class="solucion__img">
             <span>04</span>
             <div>
-              <img src="~/assets/images/soluciones/totem.jpg" alt="Turnero-Totem">
+              <img src="~/assets/images/soluciones/totem-update.png" alt="Turnero-Totem">
             </div>
           </div>
           <div class="solucion__text">
@@ -154,11 +154,11 @@ export default {
     return {
       title: this.title,
       meta: [
-        { hid: 'description', name: 'description', content: 'My custom description' },
+        { hid: 'description', name: 'description', content: 'Brindamos soluciones apoyadas en tecnologías de vanguardia para responder a las necesidades de un mercado dinámico. ¡Conózcanos!' },
         { hid: 'keywords', name: 'keywords', content: 'informática, soluciones, documentos, digital, tecnología, electrónica, licencias, identificaciones, acreditación, tracking, tarjeta, card, top card, rfid, radiofrecuencia, soluciones integrales para empresas, firma digital, empresas, software, hardware, bases de datos, seguridad documental, encriptado, cifrado, transacciones informáticas, certificación, visa, Euro pay, MasterCard' }
       ],
       link: [
-        { rel: 'canonical', href: 'http://diphot.com/soluciones/' }
+        { rel: 'canonical', href: 'https://diphot.com/soluciones' }
       ]
     }
   },
